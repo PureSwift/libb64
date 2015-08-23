@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A8618651B8A7A95002A0E9D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A8618631B8A7A95002A0E9D /* Info.plist */; };
-		1A8618661B8A7A95002A0E9D /* libb64.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8618641B8A7A95002A0E9D /* libb64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A8618661B8A7A95002A0E9D /* b64.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8618641B8A7A95002A0E9D /* b64.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A8618711B8A7ABA002A0E9D /* cdecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8618691B8A7ABA002A0E9D /* cdecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A8618721B8A7ABA002A0E9D /* cencode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A86186A1B8A7ABA002A0E9D /* cencode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A8618731B8A7ABA002A0E9D /* decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A86186B1B8A7ABA002A0E9D /* decode.h */; };
@@ -18,9 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A8618581B8A7A3C002A0E9D /* libb64 OS X.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "libb64 OS X.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A8618581B8A7A3C002A0E9D /* b64.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = b64.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8618631B8A7A95002A0E9D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
-		1A8618641B8A7A95002A0E9D /* libb64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libb64.h; sourceTree = SOURCE_ROOT; };
+		1A8618641B8A7A95002A0E9D /* b64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b64.h; sourceTree = SOURCE_ROOT; };
 		1A8618691B8A7ABA002A0E9D /* cdecode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cdecode.h; sourceTree = "<group>"; };
 		1A86186A1B8A7ABA002A0E9D /* cencode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cencode.h; sourceTree = "<group>"; };
 		1A86186B1B8A7ABA002A0E9D /* decode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decode.h; sourceTree = "<group>"; };
@@ -53,7 +52,7 @@
 		1A8618591B8A7A3C002A0E9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A8618581B8A7A3C002A0E9D /* libb64 OS X.framework */,
+				1A8618581B8A7A3C002A0E9D /* b64.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				1A8618631B8A7A95002A0E9D /* Info.plist */,
-				1A8618641B8A7A95002A0E9D /* libb64.h */,
+				1A8618641B8A7A95002A0E9D /* b64.h */,
 			);
 			path = libb64;
 			sourceTree = "<group>";
@@ -104,9 +103,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A8618661B8A7A95002A0E9D /* b64.h in Headers */,
 				1A8618721B8A7ABA002A0E9D /* cencode.h in Headers */,
 				1A8618711B8A7ABA002A0E9D /* cdecode.h in Headers */,
-				1A8618661B8A7A95002A0E9D /* libb64.h in Headers */,
 				1A8618731B8A7ABA002A0E9D /* decode.h in Headers */,
 				1A8618741B8A7ABA002A0E9D /* encode.h in Headers */,
 			);
@@ -130,7 +129,7 @@
 			);
 			name = "libb64 OS X";
 			productName = libb64;
-			productReference = 1A8618581B8A7A3C002A0E9D /* libb64 OS X.framework */;
+			productReference = 1A8618581B8A7A3C002A0E9D /* b64.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -169,7 +168,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A8618651B8A7A95002A0E9D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +283,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.libb64.libb64;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = b64;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -303,7 +301,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.libb64.libb64;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = b64;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;

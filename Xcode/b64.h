@@ -14,8 +14,8 @@ FOUNDATION_EXPORT double libb64VersionNumber;
 //! Project version string for libb64.
 FOUNDATION_EXPORT const unsigned char libb64VersionString[];
 
-#import <libb64/cencode.h>
-#import <libb64/cdecode.h>
+#import <b64/cencode.h>
+#import <b64/cdecode.h>
 
 
 

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1A8618571B8A7A3C002A0E9D"
-               BuildableName = "b64.framework"
-               BlueprintName = "libb64 OS X"
+               BlueprintIdentifier = "1AE78D9A1B96671100CDEF17"
+               BuildableName = "libb64 iOS.framework"
+               BlueprintName = "libb64 iOS"
                ReferencedContainer = "container:libb64.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1A8618571B8A7A3C002A0E9D"
-            BuildableName = "b64.framework"
-            BlueprintName = "libb64 OS X"
+            BlueprintIdentifier = "1AE78D9A1B96671100CDEF17"
+            BuildableName = "libb64 iOS.framework"
+            BlueprintName = "libb64 iOS"
             ReferencedContainer = "container:libb64.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1A8618571B8A7A3C002A0E9D"
-            BuildableName = "b64.framework"
-            BlueprintName = "libb64 OS X"
+            BlueprintIdentifier = "1AE78D9A1B96671100CDEF17"
+            BuildableName = "libb64 iOS.framework"
+            BlueprintName = "libb64 iOS"
             ReferencedContainer = "container:libb64.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -14,6 +14,20 @@
 		1A8618741B8A7ABA002A0E9D /* encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A86186C1B8A7ABA002A0E9D /* encode.h */; };
 		1A8618751B8A7ABA002A0E9D /* cdecode.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A86186E1B8A7ABA002A0E9D /* cdecode.c */; };
 		1A8618761B8A7ABA002A0E9D /* cencode.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A86186F1B8A7ABA002A0E9D /* cencode.c */; };
+		1AE78D9C1B96671100CDEF17 /* cdecode.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A86186E1B8A7ABA002A0E9D /* cdecode.c */; };
+		1AE78D9D1B96671100CDEF17 /* cencode.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A86186F1B8A7ABA002A0E9D /* cencode.c */; };
+		1AE78DA01B96671100CDEF17 /* b64.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8618641B8A7A95002A0E9D /* b64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AE78DA11B96671100CDEF17 /* cencode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A86186A1B8A7ABA002A0E9D /* cencode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AE78DA21B96671100CDEF17 /* cdecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8618691B8A7ABA002A0E9D /* cdecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AE78DA31B96671100CDEF17 /* decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A86186B1B8A7ABA002A0E9D /* decode.h */; };
+		1AE78DA41B96671100CDEF17 /* encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A86186C1B8A7ABA002A0E9D /* encode.h */; };
+		1AE78DAD1B96678A00CDEF17 /* cdecode.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A86186E1B8A7ABA002A0E9D /* cdecode.c */; };
+		1AE78DAE1B96678A00CDEF17 /* cencode.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A86186F1B8A7ABA002A0E9D /* cencode.c */; };
+		1AE78DB11B96678A00CDEF17 /* b64.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8618641B8A7A95002A0E9D /* b64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AE78DB21B96678A00CDEF17 /* cencode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A86186A1B8A7ABA002A0E9D /* cencode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AE78DB31B96678A00CDEF17 /* cdecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8618691B8A7ABA002A0E9D /* cdecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AE78DB41B96678A00CDEF17 /* decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A86186B1B8A7ABA002A0E9D /* decode.h */; };
+		1AE78DB51B96678A00CDEF17 /* encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A86186C1B8A7ABA002A0E9D /* encode.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +40,26 @@
 		1A86186C1B8A7ABA002A0E9D /* encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encode.h; sourceTree = "<group>"; };
 		1A86186E1B8A7ABA002A0E9D /* cdecode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cdecode.c; sourceTree = "<group>"; };
 		1A86186F1B8A7ABA002A0E9D /* cencode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cencode.c; sourceTree = "<group>"; };
+		1AE78DA91B96671100CDEF17 /* b64.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = b64.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE78DBA1B96678A00CDEF17 /* b64.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = b64.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1A8618541B8A7A3C002A0E9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE78D9E1B96671100CDEF17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE78DAF1B96678A00CDEF17 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -53,6 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				1A8618581B8A7A3C002A0E9D /* b64.framework */,
+				1AE78DA91B96671100CDEF17 /* b64.framework */,
+				1AE78DBA1B96678A00CDEF17 /* b64.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,6 +143,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1AE78D9F1B96671100CDEF17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE78DA01B96671100CDEF17 /* b64.h in Headers */,
+				1AE78DA11B96671100CDEF17 /* cencode.h in Headers */,
+				1AE78DA21B96671100CDEF17 /* cdecode.h in Headers */,
+				1AE78DA31B96671100CDEF17 /* decode.h in Headers */,
+				1AE78DA41B96671100CDEF17 /* encode.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE78DB01B96678A00CDEF17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE78DB11B96678A00CDEF17 /* b64.h in Headers */,
+				1AE78DB21B96678A00CDEF17 /* cencode.h in Headers */,
+				1AE78DB31B96678A00CDEF17 /* cdecode.h in Headers */,
+				1AE78DB41B96678A00CDEF17 /* decode.h in Headers */,
+				1AE78DB51B96678A00CDEF17 /* encode.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -130,6 +186,42 @@
 			name = "libb64 OS X";
 			productName = libb64;
 			productReference = 1A8618581B8A7A3C002A0E9D /* b64.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1AE78D9A1B96671100CDEF17 /* libb64 iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AE78DA61B96671100CDEF17 /* Build configuration list for PBXNativeTarget "libb64 iOS" */;
+			buildPhases = (
+				1AE78D9B1B96671100CDEF17 /* Sources */,
+				1AE78D9E1B96671100CDEF17 /* Frameworks */,
+				1AE78D9F1B96671100CDEF17 /* Headers */,
+				1AE78DA51B96671100CDEF17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libb64 iOS";
+			productName = libb64;
+			productReference = 1AE78DA91B96671100CDEF17 /* b64.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1AE78DAB1B96678A00CDEF17 /* libb64 WatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AE78DB71B96678A00CDEF17 /* Build configuration list for PBXNativeTarget "libb64 WatchOS" */;
+			buildPhases = (
+				1AE78DAC1B96678A00CDEF17 /* Sources */,
+				1AE78DAF1B96678A00CDEF17 /* Frameworks */,
+				1AE78DB01B96678A00CDEF17 /* Headers */,
+				1AE78DB61B96678A00CDEF17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libb64 WatchOS";
+			productName = libb64;
+			productReference = 1AE78DBA1B96678A00CDEF17 /* b64.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -159,12 +251,28 @@
 			projectRoot = "";
 			targets = (
 				1A8618571B8A7A3C002A0E9D /* libb64 OS X */,
+				1AE78D9A1B96671100CDEF17 /* libb64 iOS */,
+				1AE78DAB1B96678A00CDEF17 /* libb64 WatchOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1A8618561B8A7A3C002A0E9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE78DA51B96671100CDEF17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE78DB61B96678A00CDEF17 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -180,6 +288,24 @@
 			files = (
 				1A8618751B8A7ABA002A0E9D /* cdecode.c in Sources */,
 				1A8618761B8A7ABA002A0E9D /* cencode.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE78D9B1B96671100CDEF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE78D9C1B96671100CDEF17 /* cdecode.c in Sources */,
+				1AE78D9D1B96671100CDEF17 /* cencode.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE78DAC1B96678A00CDEF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE78DAD1B96678A00CDEF17 /* cdecode.c in Sources */,
+				1AE78DAE1B96678A00CDEF17 /* cencode.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +332,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -222,13 +349,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = b64;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -252,6 +382,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -262,11 +393,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = b64;
 				SDKROOT = macosx;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -283,7 +417,6 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.libb64.libb64;
-				PRODUCT_NAME = b64;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -301,8 +434,89 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.libb64.libb64;
-				PRODUCT_NAME = b64;
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1AE78DA71B96671100CDEF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = org.libb64.libb64;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AE78DA81B96671100CDEF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = org.libb64.libb64;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AE78DB81B96678A00CDEF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = org.libb64.libb64;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AE78DB91B96678A00CDEF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = org.libb64.libb64;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -323,6 +537,24 @@
 			buildConfigurations = (
 				1A8618611B8A7A3C002A0E9D /* Debug */,
 				1A8618621B8A7A3C002A0E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AE78DA61B96671100CDEF17 /* Build configuration list for PBXNativeTarget "libb64 iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE78DA71B96671100CDEF17 /* Debug */,
+				1AE78DA81B96671100CDEF17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AE78DB71B96678A00CDEF17 /* Build configuration list for PBXNativeTarget "libb64 WatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE78DB81B96678A00CDEF17 /* Debug */,
+				1AE78DB91B96678A00CDEF17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

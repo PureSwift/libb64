@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1AE78DAB1B96678A00CDEF17"
-               BuildableName = "libb64 WatchOS.framework"
+               BuildableName = "b64.framework"
                BlueprintName = "libb64 WatchOS"
                ReferencedContainer = "container:libb64.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1AE78DAB1B96678A00CDEF17"
-            BuildableName = "libb64 WatchOS.framework"
+            BuildableName = "b64.framework"
             BlueprintName = "libb64 WatchOS"
             ReferencedContainer = "container:libb64.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1AE78DAB1B96678A00CDEF17"
-            BuildableName = "libb64 WatchOS.framework"
+            BuildableName = "b64.framework"
             BlueprintName = "libb64 WatchOS"
             ReferencedContainer = "container:libb64.xcodeproj">
          </BuildableReference>

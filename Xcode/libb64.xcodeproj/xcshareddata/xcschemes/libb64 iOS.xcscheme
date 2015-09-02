@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1AE78D9A1B96671100CDEF17"
-               BuildableName = "libb64 iOS.framework"
+               BuildableName = "b64.framework"
                BlueprintName = "libb64 iOS"
                ReferencedContainer = "container:libb64.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1AE78D9A1B96671100CDEF17"
-            BuildableName = "libb64 iOS.framework"
+            BuildableName = "b64.framework"
             BlueprintName = "libb64 iOS"
             ReferencedContainer = "container:libb64.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1AE78D9A1B96671100CDEF17"
-            BuildableName = "libb64 iOS.framework"
+            BuildableName = "b64.framework"
             BlueprintName = "libb64 iOS"
             ReferencedContainer = "container:libb64.xcodeproj">
          </BuildableReference>

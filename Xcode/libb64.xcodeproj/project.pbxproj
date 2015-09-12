@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A8618661B8A7A95002A0E9D /* b64.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8618641B8A7A95002A0E9D /* b64.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A8618711B8A7ABA002A0E9D /* cdecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8618691B8A7ABA002A0E9D /* cdecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A8618721B8A7ABA002A0E9D /* cencode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A86186A1B8A7ABA002A0E9D /* cencode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A8618731B8A7ABA002A0E9D /* decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A86186B1B8A7ABA002A0E9D /* decode.h */; };
@@ -16,14 +15,12 @@
 		1A8618761B8A7ABA002A0E9D /* cencode.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A86186F1B8A7ABA002A0E9D /* cencode.c */; };
 		1AE78D9C1B96671100CDEF17 /* cdecode.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A86186E1B8A7ABA002A0E9D /* cdecode.c */; };
 		1AE78D9D1B96671100CDEF17 /* cencode.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A86186F1B8A7ABA002A0E9D /* cencode.c */; };
-		1AE78DA01B96671100CDEF17 /* b64.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8618641B8A7A95002A0E9D /* b64.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AE78DA11B96671100CDEF17 /* cencode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A86186A1B8A7ABA002A0E9D /* cencode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AE78DA21B96671100CDEF17 /* cdecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8618691B8A7ABA002A0E9D /* cdecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AE78DA31B96671100CDEF17 /* decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A86186B1B8A7ABA002A0E9D /* decode.h */; };
 		1AE78DA41B96671100CDEF17 /* encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A86186C1B8A7ABA002A0E9D /* encode.h */; };
 		1AE78DAD1B96678A00CDEF17 /* cdecode.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A86186E1B8A7ABA002A0E9D /* cdecode.c */; };
 		1AE78DAE1B96678A00CDEF17 /* cencode.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A86186F1B8A7ABA002A0E9D /* cencode.c */; };
-		1AE78DB11B96678A00CDEF17 /* b64.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8618641B8A7A95002A0E9D /* b64.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AE78DB21B96678A00CDEF17 /* cencode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A86186A1B8A7ABA002A0E9D /* cencode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AE78DB31B96678A00CDEF17 /* cdecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8618691B8A7ABA002A0E9D /* cdecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AE78DB41B96678A00CDEF17 /* decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A86186B1B8A7ABA002A0E9D /* decode.h */; };
@@ -31,9 +28,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A7DD7921BA4D333000140AA /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = SOURCE_ROOT; };
 		1A8618581B8A7A3C002A0E9D /* b64.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = b64.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8618631B8A7A95002A0E9D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
-		1A8618641B8A7A95002A0E9D /* b64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b64.h; sourceTree = SOURCE_ROOT; };
 		1A8618691B8A7ABA002A0E9D /* cdecode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cdecode.h; sourceTree = "<group>"; };
 		1A86186A1B8A7ABA002A0E9D /* cencode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cencode.h; sourceTree = "<group>"; };
 		1A86186B1B8A7ABA002A0E9D /* decode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decode.h; sourceTree = "<group>"; };
@@ -92,8 +89,8 @@
 		1A86185A1B8A7A3C002A0E9D /* libb64 */ = {
 			isa = PBXGroup;
 			children = (
+				1A7DD7921BA4D333000140AA /* module.modulemap */,
 				1A8618631B8A7A95002A0E9D /* Info.plist */,
-				1A8618641B8A7A95002A0E9D /* b64.h */,
 			);
 			path = libb64;
 			sourceTree = "<group>";
@@ -135,7 +132,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A8618661B8A7A95002A0E9D /* b64.h in Headers */,
 				1A8618721B8A7ABA002A0E9D /* cencode.h in Headers */,
 				1A8618711B8A7ABA002A0E9D /* cdecode.h in Headers */,
 				1A8618731B8A7ABA002A0E9D /* decode.h in Headers */,
@@ -147,7 +143,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AE78DA01B96671100CDEF17 /* b64.h in Headers */,
 				1AE78DA11B96671100CDEF17 /* cencode.h in Headers */,
 				1AE78DA21B96671100CDEF17 /* cdecode.h in Headers */,
 				1AE78DA31B96671100CDEF17 /* decode.h in Headers */,
@@ -159,7 +154,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AE78DB11B96678A00CDEF17 /* b64.h in Headers */,
 				1AE78DB21B96678A00CDEF17 /* cencode.h in Headers */,
 				1AE78DB31B96678A00CDEF17 /* cdecode.h in Headers */,
 				1AE78DB41B96678A00CDEF17 /* decode.h in Headers */,
@@ -332,6 +326,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -351,6 +346,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MODULEMAP_FILE = $SRCROOT/module.modulemap;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = b64;
@@ -382,6 +378,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -395,6 +392,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MODULEMAP_FILE = $SRCROOT/module.modulemap;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = b64;
 				SDKROOT = macosx;

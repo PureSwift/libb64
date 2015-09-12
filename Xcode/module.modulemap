@@ -1,0 +1,7 @@
+framework module b64 {
+    
+    header "cencode.h"
+    header "cdecode.h"
+        
+    export *
+}
